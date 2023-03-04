@@ -8,7 +8,11 @@ The Fibonacci sequence is a sequence of numbers in which each number is the sum 
 To find the Nth Fibonacci number, we can use a dynamic programming approach where we store the already computed Fibonacci numbers in an array and use them to calculate the next Fibonacci number. This reduces the number of computations required and makes the algorithm more efficient.
 
 # Implementation Details
-The program uses a dynamic programming approach to find the Nth Fibonacci number. It first checks if the Nth Fibonacci number is already computed and stored in the array. If it is, then it returns the value from the array. Otherwise, it calculates the Nth Fibonacci number using the formula where fib(n-1) and fib(n-2) are the two preceding Fibonacci numbers.   
+The program uses a dynamic programming approach to find the Nth Fibonacci number. It first checks if the Nth Fibonacci number is already computed and stored in the array. If it is, then it returns the value from the array. Otherwise, it calculates the Nth Fibonacci number using the formula 
+
+```fib(n) = fib(n-1) + fib(n-2```
+
+where fib(n-1) and fib(n-2) are the two preceding Fibonacci numbers.   
 The program then stores the computed Fibonacci number in the array for future use. Finally, it returns the Nth Fibonacci number.
 
 # Time Complexity
